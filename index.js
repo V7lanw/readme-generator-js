@@ -8,27 +8,27 @@ const questions = [
     {
         type: "input",
         name: "GitHub",
-        message: "What is your GitHub username? 🐱‍💻"
+        message: "What is your GitHub username? 🐱‍💻  "
     },
     {
         type: "input",
         name: "Email",
-        message: "What is your email address? ✉️"
+        message: "What is your email address? ✉️  "
     },
     {
         type: "input",
         name: "Title",
-        message: "What is your project's name? 📐🔬⚙️"
+        message: "What is your project's name? 📐🔬⚙️  "
     },
     {
         type: "input",
         name: "Description",
-        message: "Please describe your project briefly? 📝"
+        message: "Please describe your project briefly? 📝  "
     },
     {
         type: "list",
         name: "License",
-        message: "Which is the license of your project? ®️",
+        message: "Which is the license of your project? ®️  ",
         choices: 
         [
             'None', 
@@ -50,19 +50,19 @@ const questions = [
     {
         type: "input",
         name: "Test",
-        message: "What command should be run to test all mock cases? 🏗️",
+        message: "What command should be run to test all mock cases? 🏗️  ",
         default: "npm test ..."
     },
     {
         type: "input",
         name: "Usage",
-        message: "What is the objective of this project? 🎯 \nHow to play with your project code? 🕹️",
+        message: "What is the objective of this project? 🎯 \nHow to play with your project code? 🕹️  ",
         default: "npm install ..."
     },
     {
         type: "input",
         name: "Contributions",
-        message: "What is the future development plan of this project? 🏗️ \nHow to engage with your project code? 🛠️",
+        message: "What is the future development plan of this project? 🏗️ \nHow to engage with your project code? 🛠️  ",
         default: "npm install ... then npm test ..."
     }
 ];
