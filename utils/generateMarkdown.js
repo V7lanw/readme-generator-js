@@ -42,7 +42,7 @@ const renderLicenseSection = (license) => {
       return `GNU General Public License v3.0\n\n${commercialUsePermissions}\n${distributionPermissions}\n${modificationPermissions}\n${patentUsePermissions}\n${privateUsePermissions}\n${discloseSourceConditions}\n${licenseAndCopyrightNoticeConditions}\n${sameLicenseConditions}\n${stateChangesConditions}\n${liabilityLimitations}\n${warrantyLimitations}`;
       break;
     case 'MIT License':
-      return 'MIT License';
+      return `MIT License\n\n${commercialUsePermissions}\n${distributionPermissions}\n${modificationPermissions}\n${privateUsePermissions}\n${licenseAndCopyrightNoticeConditions}\n${liabilityLimitations}\n${warrantyLimitations}`;
       break;
     case 'BSD 2-Clause "Simplified" License':
       return 'BSD 2-Clause "Simplified" License';
