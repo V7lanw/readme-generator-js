@@ -45,7 +45,7 @@ const renderLicenseSection = (license) => {
       return `MIT License\n\n${commercialUsePermissions}\n${distributionPermissions}\n${modificationPermissions}\n${privateUsePermissions}\n${licenseAndCopyrightNoticeConditions}\n${liabilityLimitations}\n${warrantyLimitations}`;
       break;
     case 'BSD 2-Clause "Simplified" License':
-      return 'BSD 2-Clause "Simplified" License';
+      return `BSD 2-Clause "Simplified" License\n\n${commercialUsePermissions}\n${distributionPermissions}\n${modificationPermissions}\n${privateUsePermissions}\n${licenseAndCopyrightNoticeConditions}\n${liabilityLimitations}\n${warrantyLimitations}`;
       break;
     case 'BSD 3-Clause "New" or "Revised" License':
       return 'BSD 3-Clause "New" or "Revised" License';
