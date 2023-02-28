@@ -57,7 +57,7 @@ const renderLicenseSection = (license) => {
       return `Creative Commons Zero v1.0 Universal\n\n${commercialUsePermissions}\n${distributionPermissions}\n${modificationPermissions}\n${patentUseLimitations}\n${privateUsePermissions}\n${liabilityLimitations}\n${trademarkUseLimitations}\n${warrantyLimitations}`;
       break;
     case 'Eclipse Public License 2.0':
-      return 'Eclipse Public License 2.0';
+      return `Eclipse Public License 2.0\n\n${commercialUsePermissions}\n${distributionPermissions}\n${modificationPermissions}\n${patentUsePermissions}\n${privateUsePermissions}\n${discloseSourceConditions}\n${licenseAndCopyrightNoticeConditions}\n${sameLicenseConditions}\n${liabilityLimitations}\n${warrantyLimitations}`;
       break;
     case 'GNU Affero General Public License v3.0':
       return 'GNU Affero General Public License v3.0';
