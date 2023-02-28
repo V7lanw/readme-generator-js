@@ -60,7 +60,7 @@ const renderLicenseSection = (license) => {
       return `Eclipse Public License 2.0\n\n${commercialUsePermissions}\n${distributionPermissions}\n${modificationPermissions}\n${patentUsePermissions}\n${privateUsePermissions}\n${discloseSourceConditions}\n${licenseAndCopyrightNoticeConditions}\n${sameLicenseConditions}\n${liabilityLimitations}\n${warrantyLimitations}`;
       break;
     case 'GNU Affero General Public License v3.0':
-      return 'GNU Affero General Public License v3.0';
+      return `GNU Affero General Public License v3.0\n\n${commercialUsePermissions}\n${distributionPermissions}\n${modificationPermissions}\n${patentUsePermissions}\n${privateUsePermissions}\n${discloseSourceConditions}\n${licenseAndCopyrightNoticeConditions}\n${networkUseIsDistributionConditions}\n${sameLicenseConditions}\n${stateChangesConditions}\n${liabilityLimitations}\n${warrantyLimitations}`;
       break;
     case 'GNU General Public License v2.0':
       return 'GNU General Public License v2.0';
