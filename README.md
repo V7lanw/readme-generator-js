@@ -33,7 +33,7 @@ To run it, install dependencies first with `npm install` ...
 then type
 
 ``` bash
-npm ./index.js
+node ./index.js
 ```
 
 and follow the steps in CLI:

@@ -63,7 +63,7 @@ const questions = [
         type: "input",
         name: "Usage",
         message: "What is the objective of this project? 🎯 \n  and how to play with your project code? 🕹️  \n    ",
-        default: "This project is about ...\nTo run it, install dependencies first with \`npm install\` ...\nthen type\n\n\`\`\` bash\nnpm ./index.js\n\`\`\`\n\nand follow the steps in CLI ..."
+        default: "This project is about ...\nTo run it, install dependencies first with \`npm install\` ...\nthen type\n\n\`\`\` bash\nnode ./index.js\n\`\`\`\n\nand follow the steps in CLI ..."
     },
     {
         type: "input",
