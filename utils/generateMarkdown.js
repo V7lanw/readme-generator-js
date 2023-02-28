@@ -66,7 +66,7 @@ const renderLicenseSection = (license) => {
       return `GNU General Public License v2.0\n\n${commercialUsePermissions}\n${distributionPermissions}\n${modificationPermissions}\n${privateUsePermissions}\n${discloseSourceConditions}\n${licenseAndCopyrightNoticeConditions}\n${sameLicenseConditions}\n${stateChangesConditions}\n${liabilityLimitations}\n${warrantyLimitations}`;
       break;
     case 'GNU Lesser General Public License v2.1':
-      return 'GNU Lesser General Public License v2.1';
+      return `GNU Lesser General Public License v2.1\n\n${commercialUsePermissions}\n${distributionPermissions}\n${modificationPermissions}\n${privateUsePermissions}\n${discloseSourceConditions}\n${licenseAndCopyrightNoticeConditions}\n${sameLicenseLibraryConditions}\n${stateChangesConditions}\n${liabilityLimitations}\n${warrantyLimitations}`;
       break;
     case 'Mozilla Public License 2.0':
       return 'Mozilla Public License 2.0';
