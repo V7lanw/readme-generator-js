@@ -72,7 +72,7 @@ const renderLicenseSection = (license) => {
       return `Mozilla Public License 2.0\n\n${commercialUsePermissions}\n${distributionPermissions}\n${modificationPermissions}\n${patentUsePermissions}\n${privateUsePermissions}\n${discloseSourceConditions}\n${licenseAndCopyrightNoticeConditions}\n${sameLicenseFileConditions}\n${liabilityLimitations}\n${trademarkUseLimitations}\n${warrantyLimitations}`;
       break;
     case 'The Unlicense':
-      return 'The Unlicense';
+      return `The Unlicense\n\n${commercialUsePermissions}\n${distributionPermissions}\n${modificationPermissions}\n${privateUsePermissions}\n${liabilityLimitations}\n${warrantyLimitations}`;
       break;
     default:
       return "If all of the options in GitHub cannot satisfy your taste, ref [choose a license](https://choosealicense.com/appendix/) and check typos when copy and paste."
