@@ -54,7 +54,7 @@ const renderLicenseSection = (license) => {
       return `Boost Software License 1.0\n\n${commercialUsePermissions}\n${distributionPermissions}\n${modificationPermissions}\n${privateUsePermissions}\n${licenseAndCopyrightNoticeForSourceConditions}\n${liabilityLimitations}\n${warrantyLimitations}`;
       break;
     case 'Creative Commons Zero v1.0 Universal':
-      return 'Creative Commons Zero v1.0 Universal';
+      return `Creative Commons Zero v1.0 Universal\n\n${commercialUsePermissions}\n${distributionPermissions}\n${modificationPermissions}\n${patentUseLimitations}\n${privateUsePermissions}\n${liabilityLimitations}\n${trademarkUseLimitations}\n${warrantyLimitations}`;
       break;
     case 'Eclipse Public License 2.0':
       return 'Eclipse Public License 2.0';
